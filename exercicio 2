@@ -1,0 +1,8 @@
+leia quatidade de lista
+leia os numeros da lista
+iniciar a variável soma com 0
+para cada numero da lista faça: soma o antecessor de cada numero
+calcule a media dividindo a variavel soma pelo tamanho da lista
+escreva o resultado da media
+
+ 
