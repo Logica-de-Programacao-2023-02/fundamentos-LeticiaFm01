@@ -1,6 +1,38 @@
-leia quatidade de lista
-leia os numeros da lista
+3.
+leia a lista
+leia a quantidade de numeros da lista
 iniciar a variável soma com 0
-para cada numero da lista faça: soma o antecessor de cada numero
-calcule a media dividindo a variavel soma pelo tamanho da lista
-escreva o resultado da media
+para cada numero da lista faça:
+soma = soma + elemento
+media = soma / quantidade
+escreva a media
+
+4.
+leia numeros
+iniciar a variavel multiplicação com 0
+para cada numero da variavel faça: multiplique o numero por todos os seus antecessores maiores que zero
+escreva o resultado
+
+5.
+leia a lista
+leia os elementos da lista
+valor = A
+compare o elemento com o valor sendo pesquisado
+se o valor for encontrado
+então efetue o procedimento
+senão escreva erro
+
+6.
+leia o numero 
+iniciar a variavel multiplicação com 0
+para cada numero da variavel faça:
+multiplique o numero base por ele mesmo quantas vezes o expoente mandar
+escreva o resultado
+
+7. 
+solicitar o numero
+se numero dividido por 3 é 1
+então exibir que é número ímpar
+senão exibir que é numero par
+
+8.
