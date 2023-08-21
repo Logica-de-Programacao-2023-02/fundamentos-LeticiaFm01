@@ -10,12 +10,15 @@ escreva a media
 4.
 leia numeros
 iniciar a variavel multiplicação com 0
-para cada numero da variavel faça: multiplique o numero por todos os seus antecessores maiores que zero
+para cada numero da variavel faça:
+multiplique o numero por todos os seus antecessores maiores que zero
 escreva o resultado
 
 5.
 leia a lista
-leia os elementos da lista
+ler x
+para todos os elementos da lista
+se elemento é igual a x, então
 valor = A
 compare o elemento com o valor sendo pesquisado
 se o valor for encontrado
@@ -30,9 +33,39 @@ multiplique o numero base por ele mesmo quantas vezes o expoente mandar
 escreva o resultado
 
 7. 
-solicitar o numero
-se numero dividido por 3 é 1
-então exibir que é número ímpar
-senão exibir que é numero par
+ler x
+ para cada numero em 2 e x-1, faça:
+  se o resto da divisão entre x e número for 0, então:
+    escreva X não é primo
+    fim
+   fim-se
+ fim-para
+escreva x é primo
+fim
 
 8.
+leia lista_base
+leia lista_altura
+
+
+9. 
+leia capital
+ler taxa_juros
+ler tempo
+x = 1 + taxa_juros
+para cada numero entre 1 e tempo, faça:
+x = x * x
+M = capital * X
+escreva M
+
+10.
+ler lista_valores
+ler lista_pesos
+var soma = 0
+para cada número da lista_valores, faça:
+ soma = soma + (numero * peso_respectivo)
+var soma_peso = 0
+para cada numero da lista_peso, faça:
+ soma_peso = soma_peso + numero
+media = soma / soma_peso
+escreva media
